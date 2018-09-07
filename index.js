@@ -7,11 +7,11 @@ app.use(cors());
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(request, response) {
-  response.send('Hello World! ;)')
+  response.send('Hello World!')
 });
 
-app.get('/users', function(req, res) {
-  // Fake production API. Hard coding for simplicity. Pretend this hits a real databse.
+app.get('/users', function(req, res){
+  // Fake production API. Hard coding for simplicity.
   res.json([
     {"id": 1,"firstName":"Karen","lastName":"Nelson","email":"momsemail@yahoo.com"},
     {"id": 2,"firstName":"Ashley","lastName":"Hall","email":"sistersemail@gmail.com"},
