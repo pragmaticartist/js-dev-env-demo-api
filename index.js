@@ -13,10 +13,11 @@ app.get('/', function(request, response) {
 app.get('/users', function(req, res){
   // Fake production API. Hard coding for simplicity.
   res.json([
-    {"id": 1,"firstName":"Karen","lastName":"Nelson","email":"momsemail@yahoo.com"},
-    {"id": 2,"firstName":"Ashley","lastName":"Hall","email":"sistersemail@gmail.com"},
-    {"id": 3,"firstName":"David","lastName":"Hall","email":"brothersemail@gmail.com"},
-    {"id": 4,"firstName":"Talimama","lastName":"Vale","email":"paemail@gmail.com"}
+    {"id": 1,"firstName":"Mom","lastName":"ma","email":"momsemail@yahoo.com"},
+    {"id": 2,"firstName":"Sister","lastName":"sis","email":"sistersemail@gmail.com"},
+    {"id": 3,"firstName":"Brother","lastName":"bro","email":"brothersemail@gmail.com"},
+    {"id": 4,"firstName":"Talima","lastName":"Vale","email":"myemail@gmail.com"},
+    {"id": 5,"firstName":"Talimama","lastName":"Vale","email":"paemail@gmail.com"}
   ]);
 });
 
