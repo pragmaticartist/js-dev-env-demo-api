@@ -1,2 +1,6 @@
-# js-dev-env-demo-api
-API for JS Dev Env Demo in Pluralsight course
+Demo API for js-dev-env
+=======================
+Hosted with Heroku
+
+## Desired Improvements
+-Current 'Delete' buttons do not affect our hardcoded API database
