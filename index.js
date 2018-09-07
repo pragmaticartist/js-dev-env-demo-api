@@ -7,15 +7,16 @@ app.use(cors());
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(request, response) {
-  response.send('Hello World!')
+  response.send('Hello World! ;)')
 });
 
 app.get('/users', function(req, res) {
-  // Hard coding for simplicity. Pretend this hits a real database
+  // Fake production API. Hard coding for simplicity. Pretend this hits a real databse.
   res.json([
-    {"id": 1,"firstName":"Bob","lastName":"Smith","email":"bob@gmail.com"},
-    {"id": 2,"firstName":"Tammy","lastName":"Norton","email":"tnorton@yahoo.com"},
-    {"id": 3,"firstName":"Tina","lastName":"Lee","email":"lee.tina@hotmail.com"}
+    {"id": 1,"firstName":"Karen","lastName":"Nelson","email":"momsemail@yahoo.com"},
+    {"id": 2,"firstName":"Ashley","lastName":"Hall","email":"sistersemail@gmail.com"},
+    {"id": 3,"firstName":"David","lastName":"Hall","email":"brothersemail@gmail.com"},
+    {"id": 4,"firstName":"Talima","lastName":"Vale","email":"paemail@gmail.com"}
   ]);
 });
 
